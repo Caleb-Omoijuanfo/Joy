@@ -1,0 +1,20 @@
+:root {
+  --main-background-color: #202632;
+  --card-background-color: #313a49;
+  --header-color: #4ace92;
+  --text-color: #cee3e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-background-color);
+  font-family: "Manrope", Arial, Helvetica, sans-serif;
+}
+
+h5 {
+  color: var(--header-color);
+  font-weight: 700;
+}
