@@ -8,15 +8,17 @@
 
 .title {
   text-align: center;
-  margin-bottom: 2.3rem;
 }
 
-.reason-card > p {
+.reason-container {
+  height: 9rem;
+}
+
+.reason-container p {
   font-size: 1.5rem;
   color: var(--text-color);
   text-align: center;
   font-weight: 700;
-  margin-bottom: 2.9rem;
 }
 
 .divider {
@@ -29,6 +31,8 @@
 .random-button-container {
   display: flex;
   justify-content: center;
+  position: relative;
+  height: 5rem;
 }
 
 .random-button {
@@ -42,8 +46,9 @@
   border-radius: 50%;
   z-index: 1;
   margin-left: 0.6rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   cursor: pointer;
+  position: absolute;
 }
 
 @media only screen and (max-width: 600px) {
@@ -99,5 +104,9 @@
   .random-button {
     margin-left: 1.5rem;
     margin-top: 3rem;
+  }
+
+  .reason-container {
+    height: 10rem;
   }
 }
